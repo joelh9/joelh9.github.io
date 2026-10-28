@@ -29,7 +29,11 @@ button{
     height:100px;
     background-color:lightgray;
 }
-scrollbar{
-    width: 10px;
-    height: 20px;
+a:link{
+    color:cadetblue;
+    text-decoration: underline;
+}
+a:visited{
+    color:blueviolet;
+    text-decoration: underline;
 }

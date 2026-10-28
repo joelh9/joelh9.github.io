@@ -18,9 +18,6 @@ h1{
     font-size:4.5rem;
     font-weight:bold;
     text-align:center;
-    position:absolute;
-    top:0%;
-    left:50%;
 }
 .titlediv{
     width:100px;
@@ -31,9 +28,6 @@ button{
     width:150px;
     height:100px;
     background-color:lightgray;
-    position:absolute;
-    top: 60%;
-    left: 50%
 }
 scrollbar{
     width: 10px;

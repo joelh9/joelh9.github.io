@@ -2,9 +2,9 @@ body{
     margin:0;
     padding:0;
 }
-p{
-    color:blue;
+#explanation{
     font-size:2rem;
+    text-align:center;
 }
 .background-flex{
     background-color:lightblue;
@@ -12,9 +12,25 @@ p{
     height:100%;
     display:flex;
 }
-#heading{
-    color:red;
+h1{
     font-size:5rem;
     font-weight:bold;
     text-align:center;
+}
+.titlediv{
+    width:100px;
+    height:100px;
+    color: lightgray;
+}
+button{
+    width:150px;
+    height:100px;
+    background-color:lightgray;
+    position:absolute;
+    top: 60%;
+    left: 50%
+}
+scrollbar{
+    width: 10px;
+    height: 20px;
 }

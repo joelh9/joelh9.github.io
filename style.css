@@ -2,9 +2,12 @@ body{
     margin:0;
     padding:0;
 }
-#explanation{
-    font-size:1.2rem;
+#explanationdiv{
+    font-size:0.8rem;
     text-align:center;
+    height:400px;
+    width:600px;
+    transform:translate(25%, 40%);
 }
 .background-flex{
     background-color:lightblue;
@@ -19,19 +22,10 @@ h1{
     font-weight:bold;
     text-align:center;
 }
-.titlediv{
-    width:100px;
-    height:100px;
-    color: lightgray;
-}
-button{
-    width:150px;
-    height:100px;
-    background-color:lightgray;
-}
 a:link{
     color:cadetblue;
     text-decoration: underline;
+    font-weight:bold;
 }
 a:visited{
     color:blueviolet;

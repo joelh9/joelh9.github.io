@@ -22,6 +22,21 @@ h1{
     animation-delay:0.5s;
     animation-fill-mode:forwards;
 }
+#explanationdiv{
+    font-size:1.2rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height:170px;
+    width:1000px;
+    opacity:0;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content:center;
+    animation-name:fadein;
+    animation-duration:1.5s;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+}
 .background-flex{
     background-color: lightblue;
     width:100%;
@@ -31,20 +46,6 @@ h1{
     flex-wrap:wrap;
     justify-content:top;
     align-content:center;
-}
-#explanationdiv{
-    font-size:1.2rem;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align:center;
-    justify-content:center;
-    height:150px;
-    width:1000px;
-    opacity:0;
-    display:flex;
-    animation-name:fadein;
-    animation-duration:1.5s;
-    animation-delay:1s;
-    animation-fill-mode:forwards;
 }
 .navbar{
     background-color: skyblue;

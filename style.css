@@ -38,7 +38,6 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.5rem;
     display: flex;
-    min-width: 4rem;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
@@ -56,13 +55,4 @@ h1{
     animation-duration:1.5s;
     animation-delay:0.5s;
     animation-fill-mode:forwards;
-}
-a:link{
-    color:cadetblue;
-    text-decoration: underline;
-    font-weight:bold;
-}
-a:visited{
-    color:blueviolet;
-    text-decoration: underline;
 }

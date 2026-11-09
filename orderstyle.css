@@ -53,7 +53,5 @@ h1{
     min-width: 4rem;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1rem;
-    position: sticky;
-    top:0;
+    padding: 0 20px;
 }

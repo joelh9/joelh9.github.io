@@ -2,6 +2,18 @@ body{
     margin:0;
     padding:0;
 }
+
+.navbar{
+    background-color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
 @keyframes fadein{
     100%{
         opacity:1;
@@ -32,17 +44,6 @@ body{
     flex-wrap:wrap;
     justify-content:top;
     align-content:center;
-}
-.navbar{
-    background-color: tan;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1rem;
-    position: sticky;
-    top:0;
 }
 h1{
     font-size:5rem;
